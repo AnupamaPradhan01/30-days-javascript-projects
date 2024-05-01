@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.header {
+  font-size: 2rem;
+  color: rgb(242, 41, 41);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* border: 1px solid red; */
+  margin-left: 20rem;
+  padding-left: 12rem;
+}
+
+.drumimg img {
+  /* border: 1px solid black; */
+  height: 27rem;
+}
+
+.keys {
+  width: 80%;
+  /* border: 1px solid black; */
+  margin-left: 10rem;
+}
+
+button {
+  width: 6rem;
+  height: 6rem;
+  font-size: 2rem;
+  color: rgb(242, 41, 41);
+  font-weight: 300;
+  margin-left: 1rem;
+}
+
+.animation {
+  box-shadow: 0 3px 4px 0 rgb(248, 240, 89);
+  opacity: 0.3;
+}

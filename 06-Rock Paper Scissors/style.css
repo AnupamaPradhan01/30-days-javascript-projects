@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Amatic+SC:wght@400;700&family=Shadows+Into+Light&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(177, 213, 244);
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* section-1 */
+.section-1 {
+  /* border: 1px solid black; */
+  margin: auto;
+  width: 50%;
+  margin-top: 1.5rem;
+  text-align: center;
+  color: rgb(45, 20, 68);
+  font-size: 1.4rem;
+}
+
+/* section-2 */
+.section-2 {
+  /* border: 1px solid black; */
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  display: flex;
+  margin-top: 3rem;
+
+}
+
+.you {
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 5%;
+  background-color: #FFEDD8;
+  margin-right: 2rem;
+}
+
+.you-head {
+  height: 2rem;
+  background-color: rgb(45, 20, 68);
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.you-img img {
+  width: 7rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+
+.computer {
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 5%;
+  background-color: #FFEDD8;
+}
+
+.comp-head {
+  height: 2rem;
+  background-color: rgb(45, 20, 68);
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+
+
+.comp-img img {
+  width: 7rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+
+}
+
+/* section-3 */
+.section-3 {
+  /* border: 1px solid red; */
+  margin: auto;
+  width: 67%;
+  margin-top: 2rem;
+
+
+}
+
+.select-head p {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.select-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selection-img img {
+  width: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.btn {
+  background-color: rgb(45, 20, 68);
+  color: white;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 75px 75px;
+  font-size: 1.2rem;
+}

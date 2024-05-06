@@ -12,3 +12,4 @@ files containing 30 days of Javascript
 | Day 3 |[Modal](https://modal-03.netlify.app/) |
 | Day 4 |[Pig Game](https://pig-game-04.netlify.app/) |
 | Day 5 |[Word Guessing](https://word-guessing-05.netlify.app/) |
+| Day 6 |[Rock Paper Scissors](https://rock-paper-scissors-06.netlify.app/) |

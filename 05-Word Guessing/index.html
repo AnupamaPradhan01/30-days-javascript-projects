@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Guessing</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="header">
+          <h1>Guess the Word</h1>
+        </div>
+      </section>
+      <section>
+        <div class="flex-container">
+          <div class="guess-board">
+            <p class="guess-letter"></p>
+            <p class="hint-label">🤐 Hint: <span class="hint"></span></p>
+            <p class="info">🤔 Guess the Word:</p>
+            <span><input type="text" class="box" /></span>
+            <input type="button" value="Submit ☑️" class="btn check" />
+          </div>
+          <div class="score-board">
+            <p class="message">Starting the Game..</p>
+            <p class="score-label">💯 Score: <span class="score">20</span></p>
+            <p class="highscore-label">
+              🥇 Highscore: <span class="highscore">0</span>
+            </p>
+            <input type="button" value="🔁 Play Again" class="btn again" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

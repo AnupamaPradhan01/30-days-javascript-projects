@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kode Mono", monospace;
+
+}
+
+body {
+  background-color: #CAA6A6;
+}
+
+.header {
+  /* border: 1px solid black; */
+  margin: auto;
+  width: 50%;
+  height: 3rem;
+  text-align: center;
+  margin-top: 6rem;
+  background-color: #65B741;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+  gap: 2rem;
+}
+
+.guess-letter {
+  font-size: 4rem;
+  padding-bottom: 2rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+}
+
+.guess-board {
+  /* border: 1px solid red; */
+  width: 22rem;
+  height: 22rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  background-color: #944E63;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.info {
+  font-size: 1.3rem;
+}
+
+.box {
+  height: 2rem;
+}
+
+.btn {
+  height: 2rem;
+  background-color: #65B741;
+}
+
+.score-board {
+  /* border: 1px solid rgb(149, 255, 0); */
+  width: 22rem;
+  height: 22rem;
+  padding-left: 2rem;
+  padding-top: 6rem;
+  background-color: #FFE7E7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.score-board p {
+  font-size: 1.6rem;
+}
+
+.again {
+  margin-top: 1.2rem;
+  background-color: #944E63;
+  color: aliceblue;
+}

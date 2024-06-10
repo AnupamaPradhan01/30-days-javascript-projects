@@ -13,3 +13,5 @@ files containing 30 days of Javascript
 | Day 4 |[Pig Game](https://pig-game-04.netlify.app/) |
 | Day 5 |[Word Guessing](https://word-guessing-05.netlify.app/) |
 | Day 6 |[Rock Paper Scissors](https://rock-paper-scissors-06.netlify.app/) |
+| Day 7 |[Digital CLock]((https://07-digital-clock.netlify.app/)) |
+
